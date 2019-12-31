@@ -9,7 +9,7 @@ namespace ParcelAutomation.Tests
 {
     public class TestFixture : IDisposable
     {
-        public ParcelService service; 
+        public IParcelService service; 
         public TestFixture()
         {
             IDepartmentFactory departmentFactory = new DepartmentFactory();

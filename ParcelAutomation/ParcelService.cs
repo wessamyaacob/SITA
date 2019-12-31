@@ -3,7 +3,7 @@ using System;
 
 namespace ParcelAutomation
 {
-    public class ParcelService
+    public class ParcelService : IParcelService
     {
         private IDepartmentFactory _departmentFactory;
         public ParcelService(IDepartmentFactory departmentFactory)

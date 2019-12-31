@@ -50,6 +50,7 @@
     <Compile Include="Departments\HeavyDepartment.cs" />
     <Compile Include="Departments\RegularDepartment.cs" />
     <Compile Include="Factories\IDepartmentFactory.cs" />
+    <Compile Include="IParcelService.cs" />
     <Compile Include="Utility\XMLFormatter.cs" />
     <Compile Include="Departments\IDepartment.cs" />
     <Compile Include="Entites\Address.cs" />

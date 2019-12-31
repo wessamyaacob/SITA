@@ -16,7 +16,7 @@ namespace ParcelAutomation
                 return;
 
             IDepartmentFactory departmentFactory = new DepartmentFactory();
-            ParcelService parcelService= new ParcelService(departmentFactory);
+            IParcelService parcelService = new ParcelService(departmentFactory);
 
             foreach (var parcel in container.Parcels.Parcel)
             {
